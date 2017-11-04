@@ -22,8 +22,8 @@ for table_row in table[1].findAll("tr"):
             views = float(all_table_data)
             all_views += views
 
-print all_views
+print str(all_views) + " millions."
 
-viewer_numbers_file.write(str(all_views) + "\n")
+viewer_numbers_file.write(str(all_views) + " millions. \n")
 
 viewer_numbers_file.close()
